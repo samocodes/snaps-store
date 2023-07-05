@@ -1,38 +1,69 @@
-# create-svelte
+# Welcome to Snaps Store! 📸
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![Snaps Store](/static/logo-banner.svg)
 
-## Creating a project
+Snaps Store is the ultimate gallery app that combines creativity, simplicity, and elegance. This repository hosts the codebase for Snaps Store, a web application designed as a learning project to showcase stunning photography with a seamless user interface. We invite you to contribute and help us improve this project!
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features ✨
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Secure authentication with Google OAuth2 integration 🔒
+- File storage and management using Supabase's file bucket 💾
+- Built with SvelteKit, TypeScript, Supabase, and Tailwind CSS for a modern development experience 🚀
+-
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Installation ⚙️
+
+To set up Snaps Store locally, follow these steps:
+
+1. Clone this repository to your local machine using the following command:
+
+```
+git clone https://github.com/samocodes/snaps-store.git
 ```
 
-## Developing
+2. Install the required dependencies by running the following command:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```
+cd snaps-store
+npm install
+```
 
-```bash
+3. Configure your Supabase project by renaming `.env.example` to `.env` at the root of the project and adding your Supabase credentials:
+
+```
+PUBLIC_SUPABASE_URL=""
+PUBLIC_SUPABASE_ANON_KEY=""
+```
+
+4. Start the development server:
+
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+5. Open your browser and navigate to `http://localhost:5147` to access Snaps Store locally.
 
-To create a production version of your app:
+## Todo 📝
 
-```bash
-npm run build
-```
+- Make it responsive for all screens 📱💻🖥️
+- Implement face detector 🔧🚀
+- Fix some functionality
 
-You can preview the production build with `npm run preview`.
+## Contributing 🤝
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+We welcome contributions from the open-source community to enhance the Snaps Store project. If you would like to contribute, please follow these guidelines:
+
+1. Fork the repository and create your branch from `main`.
+2. Make your desired changes and improvements.
+3. Ensure that your code adheres to the existing code style and conventions.
+4. Write clear and concise commit messages.
+5. Push your changes to your forked repository.
+6. Open a pull request, describing the changes you have made and why they should be merged.
+
+## License 📄
+
+Snaps Store is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and distribute the application according to the terms of this license.
+
+## Contact 📧
+
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out. You can contact me at `samirdiff@proton.me`.
