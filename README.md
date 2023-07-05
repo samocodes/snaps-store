@@ -1,6 +1,6 @@
 # Welcome to Snaps Store! 📸
 
-![Snaps Store](/static/logo-banner.svg)
+<img src="./static/preview.png" alt="Snaps Store Preview" />
 
 Snaps Store is the ultimate gallery app that combines creativity, simplicity, and elegance. This repository hosts the codebase for Snaps Store, a web application designed as a learning project to showcase stunning photography with a seamless user interface. We invite you to contribute and help us improve this project!
 
@@ -9,7 +9,6 @@ Snaps Store is the ultimate gallery app that combines creativity, simplicity, an
 - Secure authentication with Google OAuth2 integration 🔒
 - File storage and management using Supabase's file bucket 💾
 - Built with SvelteKit, TypeScript, Supabase, and Tailwind CSS for a modern development experience 🚀
--
 
 ## Installation ⚙️
 
@@ -28,14 +27,13 @@ cd snaps-store
 npm install
 ```
 
-3. Configure your Supabase project by renaming `.env.example` to `.env` at the root of the project and adding your Supabase credentials:
+3. Go to https://supabase.com and create a new project
 
-```
-PUBLIC_SUPABASE_URL=""
-PUBLIC_SUPABASE_ANON_KEY=""
-```
+4. Copy "Project URL" and "API Key" under Project API and rename `.env.example` to `.env` at the root of the project and paste it in `.env`
 
-4. Start the development server:
+5. Create bucket in your project and edit `BUCKET_NAME` in file `src/lib/constants.ts`
+
+6. Start the development server:
 
 ```
 npm run dev
